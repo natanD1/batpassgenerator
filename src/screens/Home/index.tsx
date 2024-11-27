@@ -4,19 +4,21 @@ import { View } from 'react-native';
 import { BatLogo } from '../../components/BatLogo';
 import { StatusBar } from 'expo-status-bar';
 import { BatInputText } from '../../components/Input/BatInputText';
+import { BatButton } from '../../components/BatButton';
 
 
 export function Home() {
   return (
     <View style={styles.appContainer}>
       <View style={styles.logoContainer}>
-        <BatLogo/> 
+        <BatLogo />
       </View>
 
-      <View>
-        <BatInputText/>
+      <View style={styles.inputContainer}>
+
+        <BatButton />
       </View>
-      <StatusBar style='light'/>
+      <StatusBar style='light' />
     </View>
   );
 }

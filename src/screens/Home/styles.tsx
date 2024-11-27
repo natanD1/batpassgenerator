@@ -8,13 +8,18 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 
-  logoContainer:{
+  logoContainer: {
     backgroundColor: '#000',
     borderWidth: 2,
-    borderColor: '#e18e3b',
+    borderColor: '#e5bf3c',
     paddingTop: 20,
     paddingBottom: 10,
     marginBottom: 60
+  },
+  inputContainer: {
+    width: '80%',
+    alignItems: 'center',
+    flexDirection: 'column'
   }
 });
 
